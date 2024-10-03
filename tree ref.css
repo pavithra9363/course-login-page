@@ -1,0 +1,395 @@
+body{
+    
+        background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(./main.jpg);
+        background-repeat:no-repeat;
+         background-position: center;
+        background-attachment: fixed; 
+        background-size: cover;
+        width:98vw;  
+         
+}
+.pro{
+     
+    
+    color: orangered;
+    font-family:'Montserrat' ;
+   
+
+    font-size: 35px;
+    width:0px;
+
+}
+   .praroz{
+    padding: 0px;
+    margin-top:-30px;
+    margin-left: 30px; ;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px; 
+}  
+.img1{
+    margin-left: 68px;
+    margin-top: -1px;
+    padding-top: 16px;
+     
+}
+.logo{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+   
+}
+
+/* .s1{
+    color: white;
+    width: 100%;
+} */
+*{
+    cursor: pointer;
+}
+.nav{
+    margin-right: 25px;
+    margin-top: 5px;
+}
+.b1{
+    background-color: transparent;
+    border:transparent;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+   }
+   .b1:hover{
+    color: orange;
+    background-color: white;
+   
+   }
+  
+.input{
+  position: relative; 
+  margin-right: 300px;
+    
+}
+.intype{
+    position:absolute;
+    padding: 5px;
+    width: 200px;
+    height: 20px;
+    top: 5px;
+    border: solid rgb(245, 70, 7);
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 15px;
+   
+   
+}
+.detail{
+    display: none;
+}
+
+ ::-webkit-input-placeholder{
+    color: white;
+ }
+.b2{
+    position:absolute;
+    left: 210px;
+    top: 5px;
+   height: 36px;
+   border: none;
+   color: white;
+   background-color: orangered;
+   /* top: 0px; */
+   border-radius: 5px;
+   width: 80px;
+   box-shadow: 2px;
+   letter-spacing: 2px;
+   
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lines{
+    margin-top: 25px;
+    margin-left: 40px;;
+    color: white;
+}
+.line1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+
+
+}
+.line2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: orangered;
+    margin-top: 0px;
+    padding-top: 0px;
+
+
+}
+.line3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+
+
+}
+
+.line4{
+    font-family:'Arial',sans-serif;
+}
+
+.line5{
+    width:130px;
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+
+    
+}
+.line5:hover{
+    background-color: white;
+    color: orange;
+
+}
+
+.boxes{
+    height: 420px;
+    width: 310px;
+    background-color:rgb(0,0,0,0.8) ;
+    margin-top: 50px;
+    margin-right: 100px;
+    box-shadow: 100px;
+    border-radius: 20px;
+    
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 240px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+   .box1{
+    border-radius: 8px;
+    color: orangered;
+    border: none;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 35px;
+    
+
+   }
+   .box1:hover{
+    background-color:orangered;
+    color:white;
+
+}
+.box2{
+    margin-top: 35px;
+    padding-bottom: 10px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color:  rgb(231, 116, 74);
+     background-color:transparent;
+     color: white;
+     font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box3{
+    margin-top: 30px;
+    padding-bottom: 10px;
+
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color:   rgb(231, 116, 74);
+    background-color:transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 15px;
+    
+}
+.box4{
+    border-radius: 8px;
+    color:black;
+    border: none;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 35px;
+    background-color:orangered ;
+    
+
+   }
+   .box4:hover{
+    /* background-color:orangered; */
+    color:white;
+
+}
+   .box5{
+    margin-top: 20px;
+    
+    color: white;
+    margin-left: 40px;
+    font-family:'Arial',sans-serif;
+
+   }
+   .box6{
+    color: orangered;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-family:'Arial',sans-serif;
+   }
+   .box7{
+    color:white;
+   
+   }
+   .box8{
+    color: white;
+    margin-left: 80px;
+    margin-top: 20px;
+   }
+  
+   .fa-brands  {
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+   } 
+   @media screen and (max-width: 480px) {
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+
+    }
+
+     .b1{
+        position: relative;
+        display:none;
+    
+        
+        
+    }
+     
+        
+     
+     .p2{
+        display: flex;
+        justify-content: space-around;
+     }
+      
+    .logo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+
+    }
+    .boxes{
+       position: relative;
+        left:50px;
+        top: 50px;
+    }
+    
+    .intype{
+         width: 250px;
+    }
+    .b2{
+        width: 100px;
+        left:250px;
+    }
+    .input{ 
+        left:40px
+    }
+    .lines{
+        margin-top: 100px;
+    }
+    .detail{
+        display: block;
+        
+    
+
+    }
+
+    .detail1{
+        
+        margin-top:-2px;
+        margin-right: 30px;
+        width: 20px;
+        height: 25px;
+        background-color: orangered;
+        padding-left: 15px;
+        padding-right:10px;
+
+       padding-top:  5px;
+       margin-bottom: 20px;
+        
+       
+
+    }
+    
+      .s1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        width: 80%;
+        background-color:transparent;
+        color:white;
+        border: 2px solid white;
+
+        /* padding-right: 30px; */
+        padding: 15px;
+        
+
+    }
+    .s1:hover{
+        background-color:orangered;
+        color: white;
+    }
+
+
+      
+    }
+    
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
